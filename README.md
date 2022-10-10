@@ -26,18 +26,19 @@ Javascript e2e automation framework for web automation and it supports automatin
 - Java JDK Setup - Set JAVA_HOME path
 - Android Studio Setup
 
-1.  Set ANDROID_HOME path
-2.  Verify echo $ANDROID_HOME
-3.  If it is blank then setup the path with the help of below mentioned steps
+  - Set ANDROID_HOME path
+  - Verify echo $ANDROID_HOME
+  - If it is blank then setup the path with the help of below mentioned steps
 
-```
-vim ~/.zshenv
-export  ANDROID_HOME="/Users/username/Library/Android/sdk"
-export PATH = $ANDROID_HOME/platform-tools:$PATH
-export PATH = $ANDROID_HOME/tools:$PATH
-```
+           ```
+           vim ~/.zshenv
+           export  ANDROID_HOME="/Users/username/Library/Android/sdk"
+           export PATH = $ANDROID_HOME/platform-tools:$PATH
+           export PATH = $ANDROID_HOME/tools:$PATH
+           ```
 
-4. Appium Desktop inspector 5) Install Appium driver for android and iOS
+  - Appium Desktop inspector 5) Install Appium driver for android and iOS
 
-   `appium driver install xcuitest`
-   `appium driver install uiautomator2`
+  `appium driver install xcuitest`
+
+  `appium driver install uiautomator2`
