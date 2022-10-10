@@ -38,5 +38,6 @@ export PATH = $ANDROID_HOME/tools:$PATH
 ```
 
 4. Appium Desktop inspector 5) Install Appium driver for android and iOS
+
    `appium driver install xcuitest`
    `appium driver install uiautomator2`
