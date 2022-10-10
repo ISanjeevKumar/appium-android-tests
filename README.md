@@ -37,8 +37,9 @@ Javascript e2e automation framework for web automation and it supports automatin
            export PATH = $ANDROID_HOME/tools:$PATH
            ```
 
-  - Appium Desktop inspector 5) Install Appium driver for android and iOS
+  - Appium Desktop inspector
+  - Install Appium driver for android and iOS
 
-  `appium driver install xcuitest`
+    `appium driver install xcuitest`
 
-  `appium driver install uiautomator2`
+    `appium driver install uiautomator2`
