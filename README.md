@@ -63,3 +63,20 @@ Javascript e2e automation framework for web automation and it supports automatin
 ```
 npx wdio config
 ```
+
+## Capabilities update in config file
+
+- Platform name
+- Device name
+- App Path
+
+```js
+capabilities: [
+  {
+    platformName: "Android",
+    "appium:deviceName": "Pixel 3", // Device name should be same as Emulator device name
+    "appium:automationName": "UIAutomator2", // Automation  name for android
+    "appium:app": "path", // Path for your application
+  },
+];
+```

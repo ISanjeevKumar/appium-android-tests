@@ -2,7 +2,7 @@ exports.config = {
 
     port: 4723,
     specs: [
-        './test/specs/**/*.js'
+        './tests/android-login.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -12,16 +12,20 @@ exports.config = {
     maxInstances: 10,
 
     capabilities: [{
-        maxInstances: 5,
-        browserName: 'chrome',
-        acceptInsecureCerts: true
+        "platformName": 'Android',
+        "appium:deviceName": "Pixel 3",
+        "appium:automationName": "UiAutomator2"
     }],
 
     logLevel: 'info',
+    logLevels: {
+        webdriver: 'info',
+        webdriverio: 'info',
+        '@wdio/local-runner': 'info',
+        '@wdio/appium-service': 'info'
+    },
 
     bail: 0,
-
-    baseUrl: 'http://localhost',
     waitforTimeout: 10000,
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
