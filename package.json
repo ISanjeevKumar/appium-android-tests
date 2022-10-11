@@ -1,0 +1,33 @@
+{
+  "name": "appium-android-tests",
+  "version": "1.0.0",
+  "description": "- Open source test automation framework which supports native , hybrid and web apps - cross-platform compatibility - Uses vendor provided framework for test automation   -iOS : XCUITest   -Android: UIAutomator   -Windows: WinAppDriver - Free to use any test runner and test framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ISanjeevKumar/appium-android-tests.git"
+  },
+  "keywords": [
+    "appium",
+    "WebDriverIO",
+    "test automation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ISanjeevKumar/appium-android-tests/issues"
+  },
+  "homepage": "https://github.com/ISanjeevKumar/appium-android-tests#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.25.1"
+  },
+  "devDependencies": {
+    "@wdio/appium-service": "^7.25.1",
+    "@wdio/local-runner": "^7.25.1",
+    "@wdio/mocha-framework": "^7.25.1",
+    "@wdio/spec-reporter": "^7.25.1"
+  }
+}

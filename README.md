@@ -43,3 +43,23 @@ Javascript e2e automation framework for web automation and it supports automatin
     `appium driver install xcuitest`
 
     `appium driver install uiautomator2`
+
+## Project Setup
+
+- Create a folder and initialize it with below command:
+
+```
+ npm init -y
+```
+
+- Install WebDriverIO CLI
+
+```
+ npm install @wdio/cli
+```
+
+- Setup config
+
+```
+npx wdio config
+```
