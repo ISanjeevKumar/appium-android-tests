@@ -2,7 +2,7 @@ exports.config = {
 
     port: 4723,
     specs: [
-        './tests/android-login.js'
+        './tests/specs/android-login.js'
     ],
     // Patterns to exclude.
     exclude: [
