@@ -29,7 +29,13 @@ exports.config = {
     waitforTimeout: 10000,
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
-    services: ['appium'],
+    services: [['appium', {
+        args: {
+            address: 'localhost',
+            port: 4723
+        },
+        logPath: './test-report'
+    }]],
     framework: 'mocha',
     reporters: ['spec'],
     mochaOpts: {
