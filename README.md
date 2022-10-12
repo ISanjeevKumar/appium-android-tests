@@ -80,3 +80,20 @@ capabilities: [
   },
 ];
 ```
+
+## Finding Elements
+
+- Accessibility ID
+  a) Cross-platform compatibility
+  b) Preferred options
+  c) ID will always remain same
+
+## Handle App permision config
+
+```js
+capabilities: [
+  {
+    "appium:autoGrantPermissions": true,
+  },
+];
+```
